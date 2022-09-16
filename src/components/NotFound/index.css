@@ -1,0 +1,29 @@
+/* Write your CSS code here */
+.not-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.not-icon {
+  width: 200px;
+}
+
+.not-text {
+  color: #6d396b;
+  font-family: 'Roboto';
+  font-size: 42px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .not-text {
+    font-size: 48px;
+  }
+
+  .not-icon {
+    width: 400px;
+  }
+}

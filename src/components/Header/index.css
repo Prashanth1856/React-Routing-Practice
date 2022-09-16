@@ -1,0 +1,60 @@
+/* Write your CSS code here */
+.header-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.wave-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.wave-text {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.menu-container {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+.menu {
+  color: #12022f;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.link {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .header-container {
+    justify-content: space-between;
+  }
+
+  .logo-container {
+    margin-left: 40px;
+  }
+
+  .menu-container {
+    width: 16%;
+    margin-right: 40px;
+  }
+}
